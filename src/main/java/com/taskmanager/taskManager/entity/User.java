@@ -5,11 +5,9 @@ import jakarta.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
-import com.taskmanager.taskManager.entity.Task;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.extern.slf4j.XSlf4j;
 
 @Getter @Setter @NoArgsConstructor
 @Entity
